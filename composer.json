@@ -28,6 +28,7 @@
         "psr-4": {
             "DevMaurice\\AfricansTalkGateway\\Test\\": "tests"
         }
-    }       
+    },   
+    "minimum-stability": "dev"    
   
 }
