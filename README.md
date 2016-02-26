@@ -1,4 +1,4 @@
-# :package_name
+# Laravel AfricansTalkingGateway Package
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -21,14 +21,11 @@ Via Composer
 $ composer require DevMaurice/AfricansTalkGateway
 ```
 
-The add 
+The add the following in **config/app.php**
 
 ``` php
  DevMaurice\AfricansTalkGateway\AfricansTalkGatewayServiceProvider::class,
  ```
- to *config/app.php* **providers** array.
-
- Finally you add the Facade in **aliases** array
 
  ```php
  'Africas'   => DevMaurice\AfricansTalkGateway\Facade\AfricasFacade::class,
@@ -39,19 +36,18 @@ The add
 
 Add 
 ```
-afriname=DEVMAURICE   //your password from website
-api_key=48abcdefgh d1 //your apikey
+afriname=USERNAME   //your password from website
+api_key=48abcdefghd1 //your apikey
 
 ```
-in **.env** file first
+in your **.env** file first
 
-Use the AfricansTalkingGateway(https://www.africastalking.com/) api [documentation](http://docs.africastalking.com) to perform your functions.
+Use the AfricansTalkingGateway(https://www.africastalking.com/) api [documentation](http://docs.africastalking.com) for methods reference.
 
 **Example**
 ``` php
 Africas::sendMessage('+2547XXXXXXXX', 'Trying out sending message');
 ```
-
 where +2547XXXXXXXX is your phone number.
 
 ## Change log
