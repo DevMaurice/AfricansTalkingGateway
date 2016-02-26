@@ -1,5 +1,5 @@
 {
-    "name": ":DevMaurice/AfricansTalkGateway",
+    "name": "DevMaurice/AfricansTalkGateway",
     "type": "library",
     "description": "Laravel based package for AfricansTalkGateway API",
     "keywords": [
