@@ -1,0 +1,45 @@
+{
+    "name": ":DevMaurice/AfricansTalkGateway",
+    "type": "library",
+    "description": "Laravel based package for AfricansTalkGateway API",
+    "keywords": [
+        "SMS","voice", "email", "laravel","AfricansTalkGateway"
+    ],
+    "homepage": "https://github.com/DevMaurice/AfricansTalkGateway",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maurice Kuria",
+            "email": "developermaurice@gmail.com",
+            "homepage": "STC",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevMaurice\\AfricansTalkGateway\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DevMaurice\\AfricansTalkGateway\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
